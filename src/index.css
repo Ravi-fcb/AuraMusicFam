@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-dark-light/80 backdrop-blur-md border border-white/5;
+  }
+
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-sm border border-white/5 hover:bg-white/10 transition-all duration-300;
+  }
+
+  .text-gold {
+    @apply text-primary;
+  }
+
+  .border-gold {
+    @apply border-primary;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-dark font-bold rounded-full hover:bg-white transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg shadow-primary/20;
+  }
+
+  .btn-icon {
+    @apply p-2 rounded-full hover:bg-white/10 text-gray-400 hover:text-white transition-all duration-300;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-white/20;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}

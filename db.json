@@ -1,0 +1,157 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "title": "Sweet Life (Luxury Chill)",
+      "artist": "AlexGrohl",
+      "duration": "1:42",
+      "genre": "Beats",
+      "coverUrl": "/covers/cover1.jpg",
+      "audioUrl": "/Music/song1.mp3"
+    },
+    {
+      "id": "2",
+      "title": "Hype | Drill Music",
+      "artist": "Kontraa",
+      "duration": "3:55",
+      "genre": "Trap",
+      "coverUrl": "/covers/cover2.jpg",
+      "audioUrl": "/Music/song2.mp3"
+    },
+    {
+      "id": "3",
+      "title": "Groovy Vibe",
+      "artist": "Bransboynd",
+      "duration": "1:56",
+      "genre": "Beats",
+      "coverUrl": "/covers/cover3.jpg",
+      "audioUrl": "/Music/song3.mp3",
+      "liked": false
+    },
+    {
+      "id": "4",
+      "title": "Cascade Breathe (Future Garage)",
+      "artist": "NverAvetyanMusic",
+      "duration": "2:18",
+      "genre": "Beats",
+      "coverUrl": "/covers/cover4.jpg",
+      "audioUrl": "/Music/song4.mp3"
+    },
+    {
+      "id": "5",
+      "title": "Deep Abstract Ambient_Snowcap",
+      "artist": "ummbrella",
+      "duration": "1:38",
+      "genre": "Upbeat",
+      "coverUrl": "/covers/cover5.jpg",
+      "audioUrl": "/Music/song5.mp3"
+    },
+    {
+      "id": "6",
+      "title": "The Last Point (Beat, Electronic, Digital)",
+      "artist": "raspberrymusic",
+      "duration": "2:04",
+      "genre": "Future bass",
+      "coverUrl": "/covers/cover6.jpg",
+      "audioUrl": "/Music/song6.mp3"
+    },
+    {
+      "id": "7",
+      "title": "Running Night",
+      "artist": "Alex_MakeMusic",
+      "duration": "1:52",
+      "genre": "Funk",
+      "coverUrl": "/covers/cover7.jpg",
+      "audioUrl": "/Music/song7.mp3"
+    },
+    {
+      "id": "8",
+      "title": "Retro Lounge",
+      "artist": "Bransboynd",
+      "duration": "1:46",
+      "genre": "Synthwave",
+      "coverUrl": "/covers/cover8.jpg",
+      "audioUrl": "/Music/song8.mp3"
+    },
+    {
+      "id": "9",
+      "title": "Vlog Beat Background",
+      "artist": "Tunetank",
+      "duration": "1:36",
+      "genre": "Alternative hip hop",
+      "coverUrl": "/covers/cover9.jpg",
+      "audioUrl": "/Music/song9.mp3"
+    },
+    {
+      "id": "10",
+      "title": "Tell Me What",
+      "artist": "Denys_Brodovskyi",
+      "duration": "2:41",
+      "genre": "Future bass",
+      "coverUrl": "/covers/cover10.jpg",
+      "audioUrl": "/Music/song10.mp3"
+    },
+    {
+      "id": "11",
+      "title": "Gorila",
+      "artist": "Alex_MakeMusic",
+      "duration": "1:55",
+      "genre": "Beats",
+      "coverUrl": "/covers/cover11.jpg",
+      "audioUrl": "/Music/song11.mp3"
+    },
+    {
+      "id": "12",
+      "title": "Experimental Cinematic Hip-Hop",
+      "artist": "Rockot",
+      "duration": "2:20",
+      "genre": "Beats",
+      "coverUrl": "/covers/cover12.jpg",
+      "audioUrl": "/Music/song12.mp3"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "1",
+      "name": "Chill Vibes",
+      "songIds": [
+        1,
+        5,
+        8,
+        11
+      ],
+      "coverUrl": "/covers/playlist1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Workout Boost",
+      "songIds": [
+        2,
+        6,
+        9,
+        12
+      ],
+      "coverUrl": "/covers/playlist2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Top Hits",
+      "songIds": [
+        3,
+        4,
+        7,
+        10
+      ],
+      "coverUrl": "/covers/playlist3.jpg"
+    },
+    {
+      "id": "5bf4",
+      "name": "Moodoff",
+      "coverUrl": "/covers/userplaylistcoverimage.png",
+      "songIds": [
+        "2",
+        "12"
+      ]
+    }
+  ]
+}
