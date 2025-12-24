@@ -7,7 +7,8 @@
       "duration": "1:42",
       "genre": "Beats",
       "coverUrl": "/covers/cover1.jpg",
-      "audioUrl": "/Music/song1.mp3"
+      "audioUrl": "/Music/song1.mp3",
+      "about": "A chill beat perfect for relaxing and studying. Features smooth synth pads and a laid-back rhythm."
     },
     {
       "id": "2",
@@ -16,7 +17,8 @@
       "duration": "3:55",
       "genre": "Trap",
       "coverUrl": "/covers/cover2.jpg",
-      "audioUrl": "/Music/song2.mp3"
+      "audioUrl": "/Music/song2.mp3",
+      "liked": false
     },
     {
       "id": "3",

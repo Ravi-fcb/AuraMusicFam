@@ -6,7 +6,7 @@ import Player from './pages/Player';
 import Playlists from './pages/Playlists';
 import PlaylistView from './pages/PlaylistView';
 import Search from './pages/Search';
-// Components will be added later
+
 import Sidebar from './components/Sidebar';
 import AudioPlayer from './components/AudioPlayer';
 
